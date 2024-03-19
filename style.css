@@ -390,7 +390,10 @@ flex-basis: 49%;
 .old-comment .comment-action a{
     color: #0000ff;
 }
-@media (max-width:900px){
+@media (max-width: 900px){
+    .banner{
+        display: none;
+    }
    .play-video{
     flex-basis: 100%;
    }
